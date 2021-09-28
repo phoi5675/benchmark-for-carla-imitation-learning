@@ -1,0 +1,7 @@
+result for agent : imitagent, map : Town01, weather : test_weather, dynamic : True
+total	success	timeout	stuck	col_car	col_ped	col_oth	lht_vio	no_bbx	totrdlt	traveled(m)
+66	38	24	4	21	1	7	57	40	165	42761.00
+traffic light violation details
+weather		tlht_vio	no_bbx	totrdlt
+Cloudy Noon	38	25	115	
+Soft Rain Sunset	19	15	50	
