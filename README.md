@@ -1,12 +1,12 @@
 # benchmark-for-carla-imitation-learning
 carla benchmark for imitation learning running on CARLA 0.9.11(NOT official!)
 
-
-# Overview
 an autonomous driving benchmark running on CARLA simulator.
 
 benchmark content is based on [End-to-end Driving via Conditional Imitation Learning
 ](https://arxiv.org/abs/1710.02410)
+
+for detailed info like data collecting, training model, etc for our model, please see [carlaIL](https://github.com/phoi5675/carlaIL)
 
 tested on CARLA 0.9.11
 
