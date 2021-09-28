@@ -11,9 +11,7 @@ benchmark content is based on [End-to-end Driving via Conditional Imitation Lear
 tested on CARLA 0.9.11
 
 # benchmark_maker
-you must have map for benchmark and Navigation data for corresponding map.
-
-literally, you can make benchmark course on your own map.
+make benchmark routes for maps
 
 # benchmark runner
 run benchmark based on your autonomous driving model and course
@@ -26,3 +24,8 @@ instead, I've uploaded on google drive.
 [paper(korean)](https://drive.google.com/file/d/1Po2KdzNZ0QiEM0sU_TtCc9wesyc2q1hN/view?usp=sharing)
 
 [presentation video(korean)](https://drive.google.com/file/d/13PeE7181RUUNDKQD5I01NV9hP1l8SX2M/view?usp=sharing)
+
+# requirements(only necessary ones)
+use same or lower version of these packages. higher version might cause error :(
+- tensorflow==1.15.X
+- hypy==2.9.0
