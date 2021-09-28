@@ -19,7 +19,7 @@ our model
 ```
 python run_benchmark.py --test_num 2 -m Town01 --agent imitagent
 ```
-based model
+original model
 ```
 python run_benchmark.py --test_num 2 -m Town01 --agent carlaagent
 ```
@@ -32,10 +32,28 @@ traffic light violation details
 weather		tlht_vio	no_bbx	totrdlt
 Cloudy Noon	38	25	115	
 Soft Rain Sunset	19	15	50	
-
+```
+- to see more options about run_benchmark.py, run command below
+```
+python run_benchmark.py --help
 ```
 - shell(linux) or ps1(windows) might be useful if you want to run benchmark multiple times at different conditions.
 see benchmark.sh or benchmark.ps1 for more info.
+
+# explanation for files in this folder
+- folders
+  - result : benchmark results will be saved in here
+  - route_data : folder for route data(ex: Town##_all_routes.h5)
+- benchmark.ps1 / .sh : automated benchmark runner in multiple different conditions(models, weather, # of peds, cars, ...)
+for windows(.ps1) and linux(.sh)
+- carla_agent.py, imitation_learning_network.py : code for original model
+- __game_imitation.py : sensors are declared in this file__
+- h5_reader.py : reads routes in route_data/Town##_all_routes.h5
+- imit_agent.py, network.py : code for our model
+- ref_colped_agent.py : code for reference model. this model does not stop when other car or pedestrian is ahead
+- result_saver.py : counts data and save benchmark result
+- __run_benchmark.py : core file for running benchmark__
+- spawnnpc.py : spawns other cars & pedestrians in the map. based on [generate_traffic.py](https://github.com/carla-simulator/carla/blob/master/PythonAPI/examples/generate_traffic.py)
 
 # test your own model(NOT TESTED)
 __as I've not tested other model, there might be bugs. you might need to find solutions on your own!__
