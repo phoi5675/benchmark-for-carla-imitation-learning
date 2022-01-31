@@ -29,10 +29,6 @@ use same or lower version of these packages. higher version might cause error :(
 - traffic light detection model for [YOLOv3 implemented by Tensorflow 1.X](https://github.com/YunYang1994/tensorflow-yolov3)
 
 # paper
-this is a project for undergraduate thesis, but the paper hasn't released on my university's library.
+this is a project for undergraduate thesis.
 
-instead, I've uploaded on google drive.
-
-[paper(korean)](https://drive.google.com/file/d/1Po2KdzNZ0QiEM0sU_TtCc9wesyc2q1hN/view?usp=sharing)
-
-[presentation video(korean)](https://drive.google.com/file/d/13PeE7181RUUNDKQD5I01NV9hP1l8SX2M/view?usp=sharing)
+[paper(korean)](https://lib.kau.ac.kr/mir.liberty.file/libertyfile/contents/0000000002/20220106035239503NZ9I6HQOIG.pdf)
