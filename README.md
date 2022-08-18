@@ -16,7 +16,7 @@ make benchmark routes for maps
 # benchmark runner
 run benchmark based on your autonomous driving model and course
 
-if you want to run a sample benchmark based on our model and carla imitation-learning model, download [trained models](https://drive.google.com/file/d/1jTfAVnXQErsKmL7XSOgxLiV3wpNDfhnZ/view?usp=sharing) and unzip it in benchmark_runner/
+if you want to run a sample benchmark based on our model and carla imitation-learning model, download [trained models](https://drive.google.com/file/d/1OeKvHv0nNpDCXzKiBaeU9RB3EA9y9Bes/view?usp=sharing) and unzip it in benchmark_runner/
 
 # requirements(only necessary ones)
 use same or lower version of these packages. higher version might cause error :(
